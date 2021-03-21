@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Taelormade Renovations</title>
+        <link rel="stylesheet" type="text/css" href="index.css?version=2">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 , minimum-scale=1.0 , maximum-scale=1.0">
+        
+        
+    </head>
+    <body onload="onLoad()">
+        <div id=container>
+          <div id=main-bg></div>
+          <div id=main>
+            <div id=visual-1>
+              <div class="visual-type-001" id=visual-1-img-1></div>
+              <div class="visual-type-001" id=visual-1-img-2></div>
+              <div class="visual-type-001" id=visual-1-img-3></div>
+              <div class="visual-type-001" id=visual-1-img-4></div>
+              <!--
+              <div class="text-type-001" id=visual-1-text-A>TA</div>
+              <div class="text-type-001" id=visual-1-text-B>ELOR</div>
+              <div class="text-type-001" id=visual-1-text-C>MA</div>
+              <div class="text-type-001" id=visual-1-text-D>DE</div>
+              -->
+              <div class="taelor-svg-class" id=taelor-svg></div>
+              <div class="taelor-svg-class" id=made-svg></div>
+              
+            </div>
+            <div id="section-2">
+              <div id="mid-section-1">
+                  <div id="bubbles">
+                    <div id="bubble-1" class="bubble" onclick="testimonialClick(0, this)"><div id="bubble-on"></div></div>
+                    <div id="bubble-2"  class="bubble" onclick="testimonialClick(1, this)"></div>
+                    <div id="bubble-3"  class="bubble" onclick="testimonialClick(2, this)"></div>
+                    <div id="bubble-4"  class="bubble" onclick="testimonialClick(3, this)"></div>
+                    <div id="bubble-5"  class="bubble" onclick="testimonialClick(4, this)"></div>
+                  </div>
+                  <div class="testimonial" id="testimonial-1"></div>
+                  <div class="testimonial" id="testimonial-2"></div>
+              </div>
+              <div class="divider-line" id=divider-1></div>
+              <div class="divider-line" id=divider-2></div>
+              <div class="divider-line" id=divider-3></div>
+              <div class="divider-line" id=divider-4></div>
+            </div>
+
+
+            
+            <div id="mid-section-3"></div>
+            <div id=footer></div>
+          </div>
+        </div>
+        <div id="transition-swipe-down"></div>
+        <div id=visual-2>
+          <div id=prev-btn onclick="prevPage()"></div>
+          <div id=next-btn onclick="nextPage()"></div>
+        </div>
+        <div class="divider-line" id=divider-h1></div>
+        <div class="divider-line" id=divider-h2></div>
+        <div id=header>
+          <div class="nav" id=contact-us-svg></div>
+          <div class="nav" id=gallery-svg onclick="transition();"></div>
+          <div class="nav" id=home-svg onclick="homeclick()"></div>
+        </div>
+        <div id=tm-logo></div>
+        
+        <div id=blanket></div>
+        <div id=notif>
+          <div id="notif-cancel" onclick="closeImage()"></div>
+          <div id="loading-image"></div>
+          <div class="gallery-btn" id="gallery-prev-btn" onclick="prevImageLargeView()"></div>
+          <div class="gallery-btn" id="gallery-next-btn" onclick="nextImageLargeView()"></div>
+          <div id="notif-padding"></div>
+
+
+
+        </div>
+
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
